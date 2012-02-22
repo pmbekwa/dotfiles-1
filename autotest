@@ -1,0 +1,11 @@
+require "autotest/bundler"
+require 'autotest/growl'
+require 'autotest/timestamp'
+Autotest::Growl::hide_label = true
+Autotest::Growl::one_notification_per_run = true
+Autotest::Growl::clear_terminal = false
+Autotest::Growl::show_modified_files = true #which changes prompted the autospec run
+Autotest.add_hook :initialize do |at|
+  %w{.git .svn .hg .DS_Store ._* log}.each {|exception|at.add_exception(exception)}
+end
+require 'autotest/fsevent' #osx specific file changed event notification

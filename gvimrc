@@ -1,3 +1,5 @@
+colorscheme vividchalk
+
 set wrap
 set lbr
 

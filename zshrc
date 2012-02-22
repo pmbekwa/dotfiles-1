@@ -5,7 +5,7 @@ ZSH=$HOME/.dotfiles/oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="4eek"
 
 # Never know when you're gonna need to popd!
 setopt AUTO_PUSHD
@@ -43,12 +43,12 @@ stty start undef
 stty stop undef
 
 # RVM 
-[[ -s "/Users/ben/.rvm/scripts/rvm" ]] && source "/Users/ben/.rvm/scripts/rvm"
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git rvm)
+plugins=(git rails3 ruby brew bundler compleat knife thor vi-mode pow osx history-substring-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -57,4 +57,9 @@ source $HOME/.dotfiles/zsh/aliases
 source $HOME/.dotfiles/zsh/functions
 
 # Customize to your needs...
-export PATH=bin:/Users/ben/.rvm/gems/ruby-1.9.2-p180/bin:/Users/ben/.rvm/gems/ruby-1.9.2-p180@global/bin:/Users/ben/.rvm/rubies/ruby-1.9.2-p180/bin:/Users/ben/.rvm/bin:~/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
+export PATH=/Users/4eek/.rvm/gems/ruby-1.9.3-p0/bin:/Users/4eek/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/4eek/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/4eek/.rvm/bin:/usr/local/bin:/Users/4eek/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/4eek/Library/ec2-api-tools/bin:/opt/local/bin:/opt/local/sbin:/opt/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/MacGPG2/bin:/usr/local/libexec/git-core
+
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export EDITOR=vim
+

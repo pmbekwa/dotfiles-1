@@ -1,2 +1,4 @@
+--ignore-dir=vendor
+
 --type-add
-ruby=.haml,.feature,.scss,.coffee
+ruby=.haml,.feature,.scss,.coffee,.rake

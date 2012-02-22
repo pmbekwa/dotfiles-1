@@ -17,7 +17,7 @@ augroup myfiletypes
 augroup END
 " ================
 
-let mapleader = ","
+let mapleader = "\\"
 
 nmap <Leader>a= :Tabularize /=<CR>
 nmap <Leader>a{ :Tabularize /{<CR>
@@ -45,7 +45,6 @@ map <Leader>rf :CommandTFlush<CR>
 map <Leader>rw :%s/\s\+$//
 map <Leader>sc :sp db/schema.rb<cr>
 map <Leader>sm :RSmodel 
-map <Leader>sp yss<p>
 map <Leader>snip :e ~/.vim/snippets/ruby.snippets<CR>
 map <Leader>so :so %<cr>
 map <Leader>su :RSunittest 
