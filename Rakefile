@@ -33,6 +33,9 @@ task :install do
   system %Q{rm "$HOME/.ssh/id_dsa.pub"}
   system %Q{ln -s "$PWD/id_dsa.pub" "$HOME/.ssh/id_dsa.pub"}
 
+  # Make sure the .tmp dir exists for vim tmp files
+  system %Q{mkdir .tmp}
+
 end
 
 def replace_file(file)
