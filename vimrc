@@ -205,6 +205,9 @@ imap <Tab> <C-P>
 nmap k gk
 nmap j gj
 
+set background=dark
+colorscheme solarized
+
 " ========================================================================
 " End of things set by me.
 " ========================================================================
