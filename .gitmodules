@@ -16,8 +16,8 @@
 [submodule "vim/bundle/vim-tcomment"]
 	path = vim/bundle/vim-tcomment
 	url = https://github.com/tsaleh/vim-tcomment.git
-[submodule "vim-vividchalk"]
-	path = vim-vividchalk
+[submodule "vim/bundle/vim-vividchalk"]
+	path = vim/bundle/vim-vividchalk
 	url = https://github.com/tpope/vim-vividchalk.git
 [submodule "vim/bundle/blackboard"]
 	path = vim/bundle/blackboard
@@ -34,3 +34,6 @@
 [submodule "vim/bundle/supertab"]
 	path = vim/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule "vim/bundle/vim-coffee-script"]
+	path = vim/bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
