@@ -60,6 +60,8 @@ map <Leader>vm :RVmodel<cr>
 map <Leader>vv :RVview<cr>
 map <Leader>w <C-w>w
 map <Leader>x :exec getline(".")<cr>
+" remove trailing whitespace
+map <Leader>rw :%s/\s\+$//<CR>
 
 map <C-h> :nohl<cr>
 imap <C-l> :<Space>
@@ -92,8 +94,9 @@ set guifont=Triskweline_10:h10
 set et
 set sw=2
 set smarttab
-set noincsearch
-set ignorecase smartcase
+set incsearch
+"set noincsearch
+"set ignorecase smartcase
 set laststatus=2  " Always show status line.
 set number 
 set gdefault " assume the /g flag on :s substitutions to replace all matches in a line
@@ -204,6 +207,10 @@ imap <Tab> <C-P>
 " Let's be reasonable, shall we?
 nmap k gk
 nmap j gj
+
+" Show $ at end of line and trailing space as ~
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+set list
 
 set background=dark
 colorscheme solarized
