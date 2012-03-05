@@ -1,23 +1,22 @@
-# ~/.tmuxinator/imbweb.yml
+# ~/.tmuxinator/imbapi.yml
 # you can make as many tabs as you wish...
 
-project_name: imbweb
-project_root: ~/code/madebythem/IMB/imbweb
-socket_name: imbweb # Not needed.  Remove to use default socket
+project_name: imbapi
+project_root: ~/code/madebythem/IMB/imbapi
+socket_name: imbapi # Not needed.  Remove to use default socket
 rvm:
 pre:
 tabs:
   - editor:
-      layout: main-vertical
+      layout: main-horizontal
       panes:
         - vim
         - #empty, will just run plain zsh
-        - top
   - shell:
   - git: git ll
   - database:
-  - server: powify restart
+  - server:
   - logs: tail -f log/development.log
-  - console: rails c
+  - console:
   - capistrano:
   - server:
