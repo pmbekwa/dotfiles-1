@@ -93,3 +93,4 @@ alias db-backups='heroku pgbackups --remote production'
 
 # tmux
 alias tmux="TERM=screen-256color-bce tmux"
+alias mux="tmuxinator"
