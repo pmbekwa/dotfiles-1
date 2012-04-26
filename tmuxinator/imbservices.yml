@@ -3,14 +3,15 @@
 
 project_name: imbservices
 project_root: ~/code/madebythem/IMB/imbservices
-socket_name: imbservices # Not needed.  Remove to use default socket
+socket_name: # Not needed.  Remove to use default socket
 rvm:
 pre:
 tabs:
   - editor:
-      layout: main-horizontal
+      layout: main-vertical
       panes:
         - vim
+        - #empty, will just run plain zsh
         - #empty, will just run plain zsh
   - shell:
   - git: git ll

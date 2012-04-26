@@ -1,0 +1,14 @@
+# ~/.tmuxinator/mongodb.yml
+# you can make as many tabs as you wish...
+
+project_name: mongodb
+project_root: ~/
+socket_name: # Not needed.  Remove to use default socket
+rvm:
+pre:
+tabs:
+  - database:
+      layout: main-horizontal
+      panes:
+        - mongod
+        - humongous -p9500 -L -F

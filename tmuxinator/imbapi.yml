@@ -3,14 +3,15 @@
 
 project_name: imbapi
 project_root: ~/code/madebythem/IMB/imbapi
-socket_name: imbapi # Not needed.  Remove to use default socket
+socket_name: # Not needed.  Remove to use default socket
 rvm:
 pre:
 tabs:
   - editor:
-      layout: main-horizontal
+      layout: main-vertical
       panes:
         - vim
+        - git lol
         - #empty, will just run plain zsh
   - shell:
   - git: git ll

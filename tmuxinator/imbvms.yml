@@ -1,0 +1,14 @@
+# ~/.tmuxinator/imbvms.yml
+# you can make as many tabs as you wish...
+
+project_name: imbvms
+project_root: ~/
+socket_name: # Not needed.  Remove to use default socket
+rvm:
+pre:
+tabs:
+  - ssh:
+      layout: main-horizontal
+      panes:
+        -
+        -

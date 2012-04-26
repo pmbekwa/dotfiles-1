@@ -1,8 +1,8 @@
-# ~/.tmuxinator/imbweb.yml
+# ~/.tmuxinator/skelapi.yml
 # you can make as many tabs as you wish...
 
-project_name: imbweb
-project_root: ~/code/madebythem/IMB/imbweb
+project_name: skelapi
+project_root: ~/code/4eek/skelapi
 socket_name: # Not needed.  Remove to use default socket
 rvm:
 pre:
@@ -16,8 +16,8 @@ tabs:
   - shell:
   - git: git ll
   - database:
-  - server: powify restart
+  - server:
   - logs: tail -f log/development.log
-  - console: rails c
+  - console:
   - capistrano:
   - server:
