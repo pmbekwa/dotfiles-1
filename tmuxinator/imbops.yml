@@ -1,0 +1,23 @@
+# ~/.tmuxinator/imbops.yml
+# you can make as many tabs as you wish...
+
+project_name: imbops
+project_root: ~/code/madebythem/IMB/imbops
+socket_name: # Not needed.  Remove to use default socket
+rvm:
+pre:
+tabs:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim
+        - git lol
+        - #empty, will just run plain zsh
+  - shell:
+  - git: git ll
+  - database:
+  - server:
+  - logs: tail -f log/development.log
+  - console:
+  - capistrano:
+  - server:
