@@ -13,9 +13,9 @@
 [submodule "vim/bundle/vim-surround"]
 	path = vim/bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
-[submodule "vim/bundle/vim-tcomment"]
-	path = vim/bundle/vim-tcomment
-	url = https://github.com/noxoc/vim-tcomment.git
+#[submodule "vim/bundle/vim-tcomment"]
+#	path = vim/bundle/vim-tcomment
+#	url = https://github.com/noxoc/vim-tcomment.git
 [submodule "vim/bundle/blackboard"]
 	path = vim/bundle/blackboard
 	url = https://github.com/nelstrom/vim-blackboard.git
@@ -94,3 +94,6 @@
 [submodule "vim/bundle/vim-rdoc"]
 	path = vim/bundle/vim-rdoc
 	url = https://github.com/depuracao/vim-rdoc.git
+[submodule "tcomment_vim"]
+	path = tcomment_vim
+	url = git://github.com/tomtom/tcomment_vim.git
