@@ -2,7 +2,7 @@
 # you can make as many tabs as you wish...
 
 project_name: skelapi
-project_root: ~/code/4eek/skelapi
+project_root: ~/code/prince/skelapi
 socket_name: # Not needed.  Remove to use default socket
 rvm:
 pre:

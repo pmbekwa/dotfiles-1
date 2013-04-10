@@ -1,6 +1,6 @@
 [user]
-    email = kevin@4e.co.za
-    name = Kevin G. Fourie
+    email = pmbekwa@gmail.com
+    name = Prince Mbekwa
 [color]
     diff = auto
     status = auto
@@ -73,5 +73,5 @@
     cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
     trustExitCode = true
 [github]
-    user = 4eek
+    user = prince
 

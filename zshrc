@@ -5,7 +5,7 @@ ZSH=$HOME/.dotfiles/oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="4eek"
+ZSH_THEME="prince"
 
 # Never know when you're gonna need to popd!
 setopt AUTO_PUSHD
@@ -60,7 +60,7 @@ source $HOME/.dotfiles/zsh/aliases
 source $HOME/.dotfiles/zsh/functions
 
 # Customize to your needs...
-export PATH=/Users/4eek/.rvm/gems/ruby-1.9.3-p0/bin:/Users/4eek/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/4eek/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/4eek/.rvm/bin:/usr/local/bin:/Users/4eek/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/4eek/Library/ec2-api-tools/bin:/opt/local/bin:/opt/local/sbin:/opt/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/MacGPG2/bin:/usr/local/libexec/git-core
+export PATH=/Users/prince/.rvm/gems/ruby-1.9.3-p0/bin:/Users/prince/.rvm/gems/ruby-1.9.3-p0@global/bin:/Users/prince/.rvm/rubies/ruby-1.9.3-p0/bin:/Users/prince/.rvm/bin:/usr/local/bin:/Users/prince/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/prince/Library/ec2-api-tools/bin:/opt/local/bin:/opt/local/sbin:/opt/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/MacGPG2/bin:/usr/local/libexec/git-core
 
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
